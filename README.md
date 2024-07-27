@@ -4,6 +4,7 @@
 This project was an exploration into Object Oriented Programming (OOP), and API usage by doing something relatively useful. 
 It uses Sheety API to edit and fetch data from spreadsheets with city information and desired lowest ticket price.
 ![image](https://github.com/user-attachments/assets/bdaaa830-26e3-4ef4-979b-2c87b9953d5c)
+
 Then, it uses that data to connect to the Amadeus API and search for tickets witht the desired parameters.
 Finally, it sends whatever deals it finds through SMS or WhatsApp using the Twilio API, or by email  with smtplib to all the users in another spreadsheet, populated with a Google form.
 The script searched within a 7-day period, 1 month ahead, for the cheapest flights.
