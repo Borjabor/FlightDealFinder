@@ -15,6 +15,7 @@ The script searched within a 7-day period, 1 month ahead, for the cheapest fligh
 3. Set up environment variables for Twilio SID, Auth token and virtual number, your personal phone number (to receive the message), the email and password for the email that will send out the deals (I used Gmail, and created an App password), for the endpoints and Bearer token for the Sheety API and spreadsheets, and finally for the Amadeus Key and Secret
 
 ## Usage
+Populate the spreadsheet with city destinations and desired lowest ticket price. No need to populate the IATA codes, the program takes care of that.
 Run the `main()` function in the script to get ticket data according to the cities chosen inside the spreadsheet.
 You should receive notifications with all the deals found, or an "N/A" if nothing was found
 
